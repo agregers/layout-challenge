@@ -41,6 +41,7 @@ main {
         margin-right: 20px;
         margin-top: 20px;
         margin-bottom: 20px;
+
     }
     nav {
         position: absolute;
@@ -115,8 +116,9 @@ header p {
 }
 
 .menu{
-	padding: 1em;
+    padding: 1em;
 	background-color: rgba(207, 205, 140, 0.5);
+    
 
 }
 
