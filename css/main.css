@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 @import url(https://fonts.googleapis.com/css?family=Raleway:300);
 @import url(https://fonts.googleapis.com/css?family=Lato:300,400);
 
@@ -19,6 +20,86 @@ main {
 	opacity: 0.9;
 
 }
+=======
+@import url(http://fonts.googleapis.com/css?family=Raleway:300);
+@import url(http://fonts.googleapis.com/css?family=Lato:300,400);
+
+body {
+	font-family: 'Lato', 'Helvetica Neue', Helvetica, sans-serif;
+	font-size: 16px;
+	font-weight: 300;
+}
+
+main {
+    background-image: url(../img/ricepaper_v3.png);
+    opacity: 0.9;
+}
+.tag-line{
+    display: none;
+}
+
+.container-fluid{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+@media (min-width: 992px) {
+    body {
+        background-image: url(../img/background.jpg);
+        background-size: cover;
+        background-attachment: fixed;
+        font-size: 18px;
+    }
+    main {
+        margin-left: 30%;
+        margin-right: 20px;
+        margin-bottom: 20px;
+        margin-top: 20px;
+    }
+    .tag-line{
+        display: inline;
+    }
+    .container-fluid{
+        margin-left: 30%;
+        margin-right: 20px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+
+    }
+    nav {
+        position: absolute;
+        top: 10px;
+        right: 10px;
+    }
+
+    header{
+        position: relative;
+    }
+}
+
+nav ul{
+    padding: 0;
+    margin-bottom: 0;
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+nav li{
+    list-style: none;
+    display: inline-block;
+    margin-right: 1em;
+}
+
+nav li a{
+    color: #55E;
+}
+
+.nav a:hover{
+    color: #00E;
+}
+
+>>>>>>> 433f1203c6e7e42208bfd9f1e0df8da46a0bc811
 h1 {
 	font-size: 300%;
 	margin: 0;
@@ -29,7 +110,13 @@ h2, h3 {
 
 h2 {
 	font-size: 150%;
+<<<<<<< HEAD
 }
+=======
+	margin: 0;
+}
+
+>>>>>>> 433f1203c6e7e42208bfd9f1e0df8da46a0bc811
 h3 {
 	font-size: 125%
 }
@@ -38,12 +125,20 @@ h1, h2, h3 {
 	font-family: 'Raleway', 'Helvetica Neue', Helvetica, sans-serif;
 	font-weight: 300;
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> 433f1203c6e7e42208bfd9f1e0df8da46a0bc811
 header {
 	padding: 1em;
 	background-color: #FA5A0F;
 	border-bottom: 5px solid #EA4A00;
 	color: #FFFFFF;
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> 433f1203c6e7e42208bfd9f1e0df8da46a0bc811
 header p {
 	font-size: 120%;
 	color: #EEEEEE;
@@ -55,8 +150,14 @@ header p {
 }
 
 .menu{
+<<<<<<< HEAD
 	padding: 1em;
 	background-color: rgba(207, 205, 140, 0.5);
+=======
+    padding: 1em;
+	background-color: rgba(207, 205, 140, 0.5);
+    
+>>>>>>> 433f1203c6e7e42208bfd9f1e0df8da46a0bc811
 
 }
 
@@ -80,6 +181,7 @@ footer a:visited {
 	color: #0000AA;
 }
 
+<<<<<<< HEAD
 .info a:hover,
 .info a:focus,
 footer a:hover,
@@ -87,6 +189,8 @@ footer a:focus {
 	background-color: #0000EE;
 }
 
+=======
+>>>>>>> 433f1203c6e7e42208bfd9f1e0df8da46a0bc811
 dt {
 	color: #000000;
 	font-weight: 400;
